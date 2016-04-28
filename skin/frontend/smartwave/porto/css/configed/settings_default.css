@@ -1,0 +1,16 @@
+/**
+ * WARNING: Do not change this file. Your changes will be lost.
+ * 2016-02-24 16:02:54 */
+
+.product-info .price-box  .regular-price {
+font-size:36px;
+color:#012168;
+font-weight:bold;
+}
+div#feed-container .owl-item {
+width: 300px !important;
+}
+.btn-continue:hover {
+background-color: #fff;
+}
+#product-options-container {background:#b3b8bb; padding:10px;border-radius:7px;}

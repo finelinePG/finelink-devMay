@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <models>
+            <setstoreobserver>
+                  <class>Setstore_Model</class>
+           </setstoreobserver>
+        </models>
+     </global>
+     <frontend>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <fineline_setstore_model_observer>
+                        <type>singleton</type>
+                        <class>Fineline_Setstore_Model_Observer</class>
+                        <method>setstore</method>
+                    </fineline_setstore_model_observer>
+                </observers>
+            </controller_action_predispatch>
+       </events>
+    </frontend>
+</config>

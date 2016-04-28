@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Fineline_Setstore>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Fineline_Setstore>
+    </modules>
+</config>
