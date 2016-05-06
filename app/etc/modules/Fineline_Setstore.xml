@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Fineline_Setstore>
-            <active>true</active>
+            <active>false</active>
             <codePool>local</codePool>
         </Fineline_Setstore>
     </modules>
